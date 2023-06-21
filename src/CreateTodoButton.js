@@ -1,7 +1,10 @@
 import './CreateTodoButton.css'
 function CreateTodoButton() {
     return(
-        <button className="createTodoButton">+</button>
+        <button 
+        className="createTodoButton"
+        onClick={() => console.log('click')}
+        >+</button>
     );
 }
 
