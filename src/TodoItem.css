@@ -1,0 +1,44 @@
+.TodoItem{ 
+    background-color: #504c4b60;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+    margin-top: 24px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 5px 5px #86868640;
+}
+.TodoItem .checkCircle{
+    background: url("./assets/icons/icons8-check.svg") no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+}
+
+.TodoItem .checkCircleActive{ 
+    background: url("./assets/icons/icons8-check-active.svg") no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    text-decoration: overline;
+}
+.TodoItem .deleteTask{ 
+    background: url("./assets/icons/icons8-circledx.png") no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+}
+
+.TodoItem-p{ 
+    width: 70%;
+}
+.TodoItem-p-active{ 
+    width: 70%;
+    text-decoration: line-through;
+}
