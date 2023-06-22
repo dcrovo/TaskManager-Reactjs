@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dcrovo/TaskManager-Reactjs/static/css/main.f871d26d.css",
+    "main.js": "/dcrovo/TaskManager-Reactjs/static/js/main.d0182439.js",
+    "index.html": "/dcrovo/TaskManager-Reactjs/index.html",
+    "static/media/delete.svg": "/dcrovo/TaskManager-Reactjs/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/dcrovo/TaskManager-Reactjs/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.f871d26d.css.map": "/dcrovo/TaskManager-Reactjs/static/css/main.f871d26d.css.map",
+    "main.d0182439.js.map": "/dcrovo/TaskManager-Reactjs/static/js/main.d0182439.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f871d26d.css",
+    "static/js/main.d0182439.js"
+  ]
+}
