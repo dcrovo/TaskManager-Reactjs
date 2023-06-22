@@ -8,7 +8,7 @@
     align-items: center;
     box-shadow: 0px 5px 5px #86868640;
 }
-.TodoItem .checkCircle{
+/* .TodoItem .checkCircle{
     background: url("./assets/icons/icons8-check.svg") no-repeat;
     background-size: 90%;
     background-position: center center;
@@ -45,7 +45,7 @@
     height: 2.5rem;
     border: none;
     cursor: pointer;
-}
+} */
 
 .TodoItem-p{ 
     width: 70%;
@@ -54,3 +54,4 @@
     width: 70%;
     text-decoration: line-through;
 }
+

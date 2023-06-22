@@ -1,0 +1,35 @@
+.Icon-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Icon-container-check { 
+    position: absolute;
+    left: 12px;
+    cursor: pointer;
+}
+.Icon-container-check--active { 
+    color: #289124dc;
+}
+.Icon-container-delete { 
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+
+.Icon-svg { 
+    width: 24px;
+    height: 24px;
+}
+.Icon-container-check:hover .Icon-svg{
+    fill: #3fad3bdc;
+}
+.Icon-container-delete:hover .Icon-svg{ 
+    fill: #cf2317ad;
+}

@@ -1,19 +1,22 @@
+import {CompleteIcon} from '../TodoIcon/CompleteIcon'
+import {DeleteIcon} from '../TodoIcon/DeleteIcon'
+
 import './TodoItem.css'
 
 function TodoItem({text, completed, onCompleted, onDelete}) {
     return(
       <li className="TodoItem">
-        <button 
-        className= {`checkCircle ${completed && "checkCircleActive"}`}
-        onClick={onCompleted}>
-          
-        </button>
+        <CompleteIcon 
+          completed={completed}
+          onCompleted={onCompleted}
+          />
+   
         <p 
         className={`TodoItem-p ${completed && "TodoItem-p-active"}`}
         >{text}</p>
-        <button 
-        className='deleteTask'
-        onClick={onDelete}> </button>
+        <DeleteIcon
+        onDelete={onDelete}/>
+        
       </li>
     );
   }

@@ -17,6 +17,7 @@ display: flex;
 color: #ede8e4;
 transform: rotate(0);
 transition: .3s ease;
+z-index: 1;
 }
 .createTodoButton:hover {
     transform: rotate(360deg);
